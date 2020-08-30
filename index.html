@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="frame">
+        <canvas class="canvas" height="300" width="300" style="background-color: #3e3e3e;"></canvas>
+        
+        <div class="canvas-info">
+            <i class="icon fa fa-pause"></i>
+            <small>Press space to start or pause game</small>
+            <div><small>Score : <span class="score">0</span>, Speed : <span id="speed">0</span></small></div>
+        </div>
+    </div>
+
+    <div class="range">
+        <div class="pane"></div>
+        <div class="range-control" id="range"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="range.js"></script>
+</body>
+</html>
